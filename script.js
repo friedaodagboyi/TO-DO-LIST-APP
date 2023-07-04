@@ -32,7 +32,7 @@ function saveData(){
 }
 
 function showTask(){
-    listContainer.innerHTML = localStorage.getItem("date");
+    listContainer.innerHTML = localStorage.getItem("data");
 
 }
 showTask();
